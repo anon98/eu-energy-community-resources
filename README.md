@@ -8,11 +8,11 @@ A curated knowledge hub for building, modelling, and operating energy communitie
 
 [![EU Focus](https://img.shields.io/badge/Scope-European_Union-003399?style=flat-square&logo=europeanunion&logoColor=white)](https://energy.ec.europa.eu/topics/markets-and-consumers/energy-consumers-and-prosumers/energy-communities_en)
 [![Resources](https://img.shields.io/badge/Resources-Curated-14854F?style=flat-square)](#explore-the-hub)
-[![Research](https://img.shields.io/badge/Focus-EC–DSO_Coordination-6F42C1?style=flat-square)](#research-map)
+[![Research](https://img.shields.io/badge/Focus-EC–DSO_Coordination-6F42C1?style=flat-square)](#grid-constraints-flexibility-and-operating-envelopes)
 [![Updated](https://img.shields.io/badge/Updated-July_2026-0969DA?style=flat-square)](#)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-EF9421?style=flat-square)](LICENSE)
 
-[Explore resources](#explore-the-hub) · [Start reading](#start-here) · [Research map](#research-map) · [Contribute](CONTRIBUTING.md)
+[Explore resources](#explore-the-hub) · [Start reading](#start-here) · [Publications](#selected-scientific-publications) · [Contribute](CONTRIBUTING.md)
 
 </div>
 
@@ -29,7 +29,6 @@ A curated knowledge hub for building, modelling, and operating energy communitie
 | 📊 | **Data** | [European datasets, load profiles, and test networks](#open-data-and-test-systems) |
 | 🔌 | **Standards** | [Interoperability and communication standards](#interoperability-and-technical-standards) |
 | 🇪🇺 | **Projects** | [European projects, networks, and knowledge platforms](#european-projects-and-networks) |
-| 🧭 | **Research map** | [Open questions and a reproducible experiment stack](#research-map) |
 
 ### Choose your pathway
 
@@ -58,8 +57,8 @@ A curated knowledge hub for building, modelling, and operating energy communitie
 #### ⚡ Working on EC–DSO coordination
 
 1. Read [grid and DOE papers](#grid-constraints-flexibility-and-operating-envelopes)
-2. Follow the [coordination architecture](#research-map)
-3. Review the [open research questions](#high-value-open-research-questions)
+2. Review [interoperability standards](#interoperability-and-technical-standards)
+3. Select [grid and optimization tools](#open-source-software)
 
 </td>
 </tr>
@@ -330,71 +329,6 @@ For implementation, distinguish carefully between:
 | [OneNet](https://onenet-project.eu/) | Coordinated European electricity-market architecture and flexibility services. |
 | [CoordiNet](https://coordinet-project.eu/) | TSO–DSO–consumer coordination and flexibility demonstrations. |
 | [INTERRFACE](http://www.interrface.eu/) | TSO–DSO coordination and flexibility-service platforms. |
-
-<a id="research-map"></a>
-## 🧭 Research map
-
-The following map positions a network-safe energy-community framework within the broader literature:
-
-```mermaid
-flowchart TD
-    A["Member assets and forecasts"] --> B["Community capability declaration"]
-    B --> C["DSO network-feasibility assessment"]
-    C --> D["Network-safe operating envelope"]
-    D --> E["Day-ahead community scheduling"]
-    E --> F["Real-time MPC dispatch"]
-    F --> G["Measurement, verification and settlement"]
-```
-
-<details>
-<summary><strong>What each exchange should contain</strong></summary>
-
-| Exchange | Minimum useful content |
-|---|---|
-| Community → DSO | Time-indexed P–Q bounds, coupled capability cuts, cumulative-energy limits, ramps, uncertainty margin |
-| DSO → community | Certified P–Q envelope, validity interval, connection identifier, status/version, applicable fallback |
-| Community schedule | Baseline trajectory, reserve/flexibility commitment, uncertainty assumptions |
-| Real-time operation | Updated state, forecast, envelope version, dispatch target, measured compliance |
-| Settlement | Metered delivery, baseline method, tolerance, activation record, price and penalty rule |
-
-</details>
-
-<a id="high-value-open-research-questions"></a>
-### High-value open research questions
-
-1. **Multi-period capability representation:** How can an energy community declare feasible active/reactive-power trajectories without exposing device-level data?
-2. **Network-safe certification:** How should a DSO convert declared capability into voltage- and thermal-secure operating envelopes under uncertainty?
-3. **Fair network-capacity allocation:** Which fairness axioms are appropriate when network access is scarce, and how should efficiency–equity trade-offs be measured?
-4. **Reactive-power coupling:** How should P–Q capability, inverter ratings, losses, and voltage support be represented without producing impractically complex interfaces?
-5. **Rolling operation:** How should day-ahead envelopes be reconciled with measured state of charge, updated forecasts, and intraday network conditions?
-6. **Verification and settlement:** Which baselines, telemetry, and counterfactual methods are defensible for community flexibility?
-7. **Information minimization:** What is the smallest EC–DSO information exchange that preserves feasibility, privacy, and scalability?
-8. **EU interoperability:** How can abstract capability/envelope exchanges map onto CIM, OpenADR, EEBUS, S2, IEEE 2030.5, and national market processes?
-9. **Reproducible benchmarking:** Which common feeders, member archetypes, uncertainty models, and KPIs enable fair comparison of methods?
-
-### Suggested reproducible experiment stack
-
-- **asset and community models:** `pycity_scheduling`, Pyomo, or CVXPY;
-- **network model:** pandapower or OpenDSS/DSS-Extensions;
-- **coordination:** centralized benchmark plus ADMM or another distributed method;
-- **operation:** day-ahead stochastic scheduling plus 15-minute rolling MPC;
-- **data:** ENTSO-E prices/load, PVGIS or ERA5 weather, and documented synthetic household archetypes;
-- **test grids:** one small interpretable LV feeder and one larger unbalanced multi-feeder system;
-- **outputs:** tidy CSV/Parquet results, configuration files, solver logs, and automated KPI plots.
-
-<details>
-<summary><strong>Minimal reproducibility checklist</strong></summary>
-
-- [ ] Pin software and solver versions.
-- [ ] Publish network and asset parameters or an executable data-generation script.
-- [ ] State sign conventions and units.
-- [ ] Separate forecasts from realized time series.
-- [ ] Fix and report random seeds.
-- [ ] Report infeasibility handling and solver tolerances.
-- [ ] Include grid, economic, fairness, control, and computation KPIs.
-- [ ] Export machine-readable results alongside figures.
-
-</details>
 
 ## 🤝 How to contribute
 
