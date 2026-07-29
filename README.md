@@ -18,6 +18,7 @@ A curated knowledge hub for building, modelling, and operating energy communitie
 
 ---
 
+<a id="explore-the-hub"></a>
 ## Explore the hub
 
 | | Area | Go directly to |
@@ -86,6 +87,7 @@ The collection is especially focused on:
 > [!IMPORTANT]
 > Legal material is provided for research orientation, not legal advice. Always check the current consolidated EU text and national transposition.
 
+<a id="start-here"></a>
 ## 🚀 Start here
 
 For a compact introduction, read these resources in order:
@@ -97,6 +99,7 @@ For a compact introduction, read these resources in order:
 5. [Gjorgievski et al. (2021)](https://doi.org/10.1016/j.renene.2021.01.078) — review of social arrangements, technical designs, and impacts.
 6. [Barabino et al. (2023)](https://doi.org/10.1016/j.segan.2023.101187) — review of modelling choices, business models, and optimization objectives.
 
+<a id="eu-legal-and-policy-framework"></a>
 ## ⚖️ EU legal and policy framework
 
 ### Core legislation
@@ -113,6 +116,7 @@ For a compact introduction, read these resources in order:
 | [General Data Protection Regulation: Regulation (EU) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) | Governs personal-data processing, including granular metering and household flexibility data. |
 | [Data Act: Regulation (EU) 2023/2854](https://eur-lex.europa.eu/eli/reg/2023/2854/oj) | Relevant to access, portability, and use of data from connected products and related services. |
 
+<a id="rec-and-cec-are-not-interchangeable"></a>
 ### REC and CEC are not interchangeable
 
 The two EU concepts overlap but have different legal scopes. A REC is tied to renewable energy, proximity, and specific control criteria under the Renewable Energy Directive. A CEC is an electricity-market concept under the Electricity Directive and may undertake a broader set of electricity activities. National transposition determines the operational details, including legal forms, proximity rules, metering, settlement, network charges, and licensing.
@@ -141,6 +145,7 @@ This table is an orientation aid, not a substitute for the directives or nationa
 - [Council of European Energy Regulators](https://www.ceer.eu/) — regulatory reports on active customers, flexibility, DSOs, and consumer protection.
 - [ACER](https://www.acer.europa.eu/) — EU electricity-market monitoring, framework guidelines, and regulatory decisions.
 
+<a id="implementation-and-practitioner-resources"></a>
 ## 🏗️ Implementation and practitioner resources
 
 | Resource | Use |
@@ -152,10 +157,12 @@ This table is an orientation aid, not a substitute for the directives or nationa
 | [Clean Energy for EU Islands](https://clean-energy-islands.ec.europa.eu/) | Transition agendas, project support, and island-community cases. |
 | [EU Covenant of Mayors](https://eu-mayors.ec.europa.eu/) | Local-energy and climate planning resources for municipalities. |
 
+<a id="selected-scientific-publications"></a>
 ## 📚 Selected scientific publications
 
 The list prioritizes foundational work, systematic reviews, methods relevant to network-aware community operation, and studies with reusable research concepts.
 
+<a id="foundations-definitions-and-governance"></a>
 ### Foundations, definitions, and governance
 
 | Publication | Relevance |
@@ -188,6 +195,7 @@ The list prioritizes foundational work, systematic reviews, methods relevant to 
 | Secchi et al. (2021), [*Multi-objective battery sizing optimisation for renewable energy communities with distribution-level constraints*](https://doi.org/10.1016/j.apenergy.2021.117171) | Couples community investment decisions to grid constraints. |
 | Tomar et al. (2021), [*An integrated flexibility optimizer for economic gains of local energy communities*](https://doi.org/10.1016/j.segan.2021.100518) | Community flexibility optimization and economic assessment. |
 
+<a id="grid-constraints-flexibility-and-operating-envelopes"></a>
 ### Grid constraints, flexibility, and operating envelopes
 
 | Publication | Relevance |
@@ -200,6 +208,7 @@ The list prioritizes foundational work, systematic reviews, methods relevant to 
 | Wickramasinghe et al. (2025), [*A Review of Dynamic Operating Envelopes: Computation, Allocation and Control*](https://doi.org/10.3390/electricity6020029) | DOE taxonomy and open research questions. |
 | AEMO Project EDGE (2023), [*Fairness in Dynamic Operating Envelope Objective Functions*](https://www.aemo.com.au/-/media/files/initiatives/der/2023/the-fairness-in-dynamic-operating-envelope-objectives-report.pdf) | Practical comparison of fairness objectives for network-capacity allocation. |
 
+<a id="recommended-evaluation-dimensions"></a>
 ### Recommended evaluation dimensions
 
 A technically credible energy-community study should report more than cost savings or self-consumption. Depending on scope, evaluate:
@@ -212,6 +221,7 @@ A technically credible energy-community study should report more than cost savin
 - **robustness:** forecast error, missing data, device unavailability, topology errors, and adversarial conditions;
 - **replicability:** open inputs, documented assumptions, fixed random seeds, and machine-readable outputs.
 
+<a id="open-source-software"></a>
 ## 🧰 Open-source software
 
 ### Distribution-grid analysis
@@ -246,6 +256,7 @@ A technically credible energy-community study should report more than cost savin
 | [OpenEMS](https://openems.io/) | Modular open-source energy-management systems and field integration. |
 | [Eclipse VOLTTRON](https://volttron.org/) | Distributed control, building-grid integration, and transactive applications. |
 
+<a id="open-data-and-test-systems"></a>
 ## 📊 Open data and test systems
 
 ### Energy and weather data
@@ -268,6 +279,7 @@ A technically credible energy-community study should report more than cost savin
 - [Low Voltage Network Solutions data](https://www.enwl.co.uk/go-net-zero/innovation/smaller-projects/low-voltage-network-solutions/) — UK LV monitoring and network-study material.
 - [London SmartMeter Energy Consumption Data](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households) — household smart-meter data; review its sampling and representativeness before use.
 
+<a id="interoperability-and-technical-standards"></a>
 ## 🔌 Interoperability and technical standards
 
 Standards are often paywalled. The links below point to official landing pages or open specifications where available.
@@ -293,6 +305,7 @@ For implementation, distinguish carefully between:
 4. **grid-safety processes** — how network constraints are calculated and enforced;
 5. **cybersecurity and privacy** — identity, authorization, integrity, availability, and data minimization.
 
+<a id="european-projects-and-networks"></a>
 ## 🇪🇺 European projects and networks
 
 ### Networks and knowledge platforms
@@ -318,6 +331,7 @@ For implementation, distinguish carefully between:
 | [CoordiNet](https://coordinet-project.eu/) | TSO–DSO–consumer coordination and flexibility demonstrations. |
 | [INTERRFACE](http://www.interrface.eu/) | TSO–DSO coordination and flexibility-service platforms. |
 
+<a id="research-map"></a>
 ## 🧭 Research map
 
 The following map positions a network-safe energy-community framework within the broader literature:
@@ -345,6 +359,7 @@ flowchart TD
 
 </details>
 
+<a id="high-value-open-research-questions"></a>
 ### High-value open research questions
 
 1. **Multi-period capability representation:** How can an energy community declare feasible active/reactive-power trajectories without exposing device-level data?
