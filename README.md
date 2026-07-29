@@ -1,6 +1,74 @@
-# EU Energy Community Resources
+<div align="center">
 
-A curated, research-oriented collection of European Union legislation, policy guidance, scientific publications, open-source tools, datasets, standards, and projects relevant to **energy communities**.
+# ⚡ EU Energy Community Resources
+
+### Research • Regulation • Flexibility • Grid Integration
+
+A curated knowledge hub for building, modelling, and operating energy communities in Europe.
+
+[![EU Focus](https://img.shields.io/badge/Scope-European_Union-003399?style=flat-square&logo=europeanunion&logoColor=white)](https://energy.ec.europa.eu/topics/markets-and-consumers/energy-consumers-and-prosumers/energy-communities_en)
+[![Resources](https://img.shields.io/badge/Resources-Curated-14854F?style=flat-square)](#explore-the-hub)
+[![Research](https://img.shields.io/badge/Focus-EC–DSO_Coordination-6F42C1?style=flat-square)](#research-map)
+[![Updated](https://img.shields.io/badge/Updated-July_2026-0969DA?style=flat-square)](#)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-EF9421?style=flat-square)](LICENSE)
+
+[Explore resources](#explore-the-hub) · [Start reading](#start-here) · [Research map](#research-map) · [Contribute](CONTRIBUTING.md)
+
+</div>
+
+---
+
+## Explore the hub
+
+| | Area | Go directly to |
+|---:|---|---|
+| ⚖️ | **Law & policy** | [EU directives, regulations, and implementation tracking](#eu-legal-and-policy-framework) |
+| 📚 | **Research** | [Selected peer-reviewed publications](#selected-scientific-publications) |
+| 🧰 | **Tools** | [Grid, optimization, control, and co-simulation software](#open-source-software) |
+| 📊 | **Data** | [European datasets, load profiles, and test networks](#open-data-and-test-systems) |
+| 🔌 | **Standards** | [Interoperability and communication standards](#interoperability-and-technical-standards) |
+| 🇪🇺 | **Projects** | [European projects, networks, and knowledge platforms](#european-projects-and-networks) |
+| 🧭 | **Research map** | [Open questions and a reproducible experiment stack](#research-map) |
+
+### Choose your pathway
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### 🎓 New to the topic
+
+1. Read the [six essential resources](#start-here)
+2. Understand [REC versus CEC](#rec-and-cec-are-not-interchangeable)
+3. Scan the [foundational reviews](#foundations-definitions-and-governance)
+
+</td>
+<td width="33%" valign="top">
+
+#### 🧪 Building a study
+
+1. Select [software](#open-source-software)
+2. Select [data and test grids](#open-data-and-test-systems)
+3. Use the [evaluation dimensions](#recommended-evaluation-dimensions)
+
+</td>
+<td width="33%" valign="top">
+
+#### ⚡ Working on EC–DSO coordination
+
+1. Read [grid and DOE papers](#grid-constraints-flexibility-and-operating-envelopes)
+2. Follow the [coordination architecture](#research-map)
+3. Review the [open research questions](#high-value-open-research-questions)
+
+</td>
+</tr>
+</table>
+
+---
+
+### Scope
+
+This hub collects European Union legislation, policy guidance, scientific publications, open-source tools, datasets, standards, and projects relevant to **energy communities**.
 
 The collection is especially focused on:
 
@@ -12,22 +80,13 @@ The collection is especially focused on:
 - hosting capacity, distribution-grid constraints, and fairness;
 - local electricity markets, collective self-consumption, and benefit allocation.
 
-> **Status:** living resource. Links and descriptions were last checked on **29 July 2026**. Inclusion does not imply endorsement. Legal material is provided for research orientation, not legal advice.
+> [!NOTE]
+> This is a living resource. Links and descriptions were last checked on **29 July 2026**. Inclusion does not imply endorsement.
 
-## Contents
+> [!IMPORTANT]
+> Legal material is provided for research orientation, not legal advice. Always check the current consolidated EU text and national transposition.
 
-1. [Start here](#start-here)
-2. [EU legal and policy framework](#eu-legal-and-policy-framework)
-3. [Implementation and practitioner resources](#implementation-and-practitioner-resources)
-4. [Selected scientific publications](#selected-scientific-publications)
-5. [Open-source software](#open-source-software)
-6. [Open data and test systems](#open-data-and-test-systems)
-7. [Interoperability and technical standards](#interoperability-and-technical-standards)
-8. [European projects and networks](#european-projects-and-networks)
-9. [Research map](#research-map)
-10. [How to contribute](#how-to-contribute)
-
-## Start here
+## 🚀 Start here
 
 For a compact introduction, read these resources in order:
 
@@ -38,7 +97,7 @@ For a compact introduction, read these resources in order:
 5. [Gjorgievski et al. (2021)](https://doi.org/10.1016/j.renene.2021.01.078) — review of social arrangements, technical designs, and impacts.
 6. [Barabino et al. (2023)](https://doi.org/10.1016/j.segan.2023.101187) — review of modelling choices, business models, and optimization objectives.
 
-## EU legal and policy framework
+## ⚖️ EU legal and policy framework
 
 ### Core legislation
 
@@ -58,6 +117,21 @@ For a compact introduction, read these resources in order:
 
 The two EU concepts overlap but have different legal scopes. A REC is tied to renewable energy, proximity, and specific control criteria under the Renewable Energy Directive. A CEC is an electricity-market concept under the Electricity Directive and may undertake a broader set of electricity activities. National transposition determines the operational details, including legal forms, proximity rules, metering, settlement, network charges, and licensing.
 
+<details>
+<summary><strong>Quick comparison: REC versus CEC</strong></summary>
+
+| Dimension | Renewable energy community | Citizen energy community |
+|---|---|---|
+| Main EU basis | Directive (EU) 2018/2001 | Directive (EU) 2019/944 |
+| Energy scope | Renewable energy | Electricity |
+| Proximity | Embedded in the EU definition | No equivalent EU-level proximity criterion |
+| Effective control | Limited to qualifying nearby members/shareholders | Member State may restrict effective control to specified participant classes |
+| Primary purpose | Environmental, economic, or social community benefits | Environmental, economic, or social community benefits |
+
+This table is an orientation aid, not a substitute for the directives or national law.
+
+</details>
+
 ### Policy and implementation tracking
 
 - [European Commission: Setting up an energy community](https://energy.ec.europa.eu/setting-energy-community_en)
@@ -67,7 +141,7 @@ The two EU concepts overlap but have different legal scopes. A REC is tied to re
 - [Council of European Energy Regulators](https://www.ceer.eu/) — regulatory reports on active customers, flexibility, DSOs, and consumer protection.
 - [ACER](https://www.acer.europa.eu/) — EU electricity-market monitoring, framework guidelines, and regulatory decisions.
 
-## Implementation and practitioner resources
+## 🏗️ Implementation and practitioner resources
 
 | Resource | Use |
 |---|---|
@@ -78,7 +152,7 @@ The two EU concepts overlap but have different legal scopes. A REC is tied to re
 | [Clean Energy for EU Islands](https://clean-energy-islands.ec.europa.eu/) | Transition agendas, project support, and island-community cases. |
 | [EU Covenant of Mayors](https://eu-mayors.ec.europa.eu/) | Local-energy and climate planning resources for municipalities. |
 
-## Selected scientific publications
+## 📚 Selected scientific publications
 
 The list prioritizes foundational work, systematic reviews, methods relevant to network-aware community operation, and studies with reusable research concepts.
 
@@ -138,7 +212,7 @@ A technically credible energy-community study should report more than cost savin
 - **robustness:** forecast error, missing data, device unavailability, topology errors, and adversarial conditions;
 - **replicability:** open inputs, documented assumptions, fixed random seeds, and machine-readable outputs.
 
-## Open-source software
+## 🧰 Open-source software
 
 ### Distribution-grid analysis
 
@@ -172,7 +246,7 @@ A technically credible energy-community study should report more than cost savin
 | [OpenEMS](https://openems.io/) | Modular open-source energy-management systems and field integration. |
 | [Eclipse VOLTTRON](https://volttron.org/) | Distributed control, building-grid integration, and transactive applications. |
 
-## Open data and test systems
+## 📊 Open data and test systems
 
 ### Energy and weather data
 
@@ -194,7 +268,7 @@ A technically credible energy-community study should report more than cost savin
 - [Low Voltage Network Solutions data](https://www.enwl.co.uk/go-net-zero/innovation/smaller-projects/low-voltage-network-solutions/) — UK LV monitoring and network-study material.
 - [London SmartMeter Energy Consumption Data](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households) — household smart-meter data; review its sampling and representativeness before use.
 
-## Interoperability and technical standards
+## 🔌 Interoperability and technical standards
 
 Standards are often paywalled. The links below point to official landing pages or open specifications where available.
 
@@ -219,7 +293,7 @@ For implementation, distinguish carefully between:
 4. **grid-safety processes** — how network constraints are calculated and enforced;
 5. **cybersecurity and privacy** — identity, authorization, integrity, availability, and data minimization.
 
-## European projects and networks
+## 🇪🇺 European projects and networks
 
 ### Networks and knowledge platforms
 
@@ -244,7 +318,7 @@ For implementation, distinguish carefully between:
 | [CoordiNet](https://coordinet-project.eu/) | TSO–DSO–consumer coordination and flexibility demonstrations. |
 | [INTERRFACE](http://www.interrface.eu/) | TSO–DSO coordination and flexibility-service platforms. |
 
-## Research map
+## 🧭 Research map
 
 The following map positions a network-safe energy-community framework within the broader literature:
 
@@ -257,6 +331,19 @@ flowchart TD
     E --> F["Real-time MPC dispatch"]
     F --> G["Measurement, verification and settlement"]
 ```
+
+<details>
+<summary><strong>What each exchange should contain</strong></summary>
+
+| Exchange | Minimum useful content |
+|---|---|
+| Community → DSO | Time-indexed P–Q bounds, coupled capability cuts, cumulative-energy limits, ramps, uncertainty margin |
+| DSO → community | Certified P–Q envelope, validity interval, connection identifier, status/version, applicable fallback |
+| Community schedule | Baseline trajectory, reserve/flexibility commitment, uncertainty assumptions |
+| Real-time operation | Updated state, forecast, envelope version, dispatch target, measured compliance |
+| Settlement | Metered delivery, baseline method, tolerance, activation record, price and penalty rule |
+
+</details>
 
 ### High-value open research questions
 
@@ -280,7 +367,21 @@ flowchart TD
 - **test grids:** one small interpretable LV feeder and one larger unbalanced multi-feeder system;
 - **outputs:** tidy CSV/Parquet results, configuration files, solver logs, and automated KPI plots.
 
-## How to contribute
+<details>
+<summary><strong>Minimal reproducibility checklist</strong></summary>
+
+- [ ] Pin software and solver versions.
+- [ ] Publish network and asset parameters or an executable data-generation script.
+- [ ] State sign conventions and units.
+- [ ] Separate forecasts from realized time series.
+- [ ] Fix and report random seeds.
+- [ ] Report infeasibility handling and solver tolerances.
+- [ ] Include grid, economic, fairness, control, and computation KPIs.
+- [ ] Export machine-readable results alongside figures.
+
+</details>
+
+## 🤝 How to contribute
 
 Contributions are welcome through pull requests. Please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -297,4 +398,3 @@ A suggested resource should have:
 This repository is a curated index, not a systematic literature review. Cite the original publications, legislation, datasets, and software rather than this list when making substantive claims.
 
 The repository text is licensed under [CC BY 4.0](LICENSE). Linked resources retain their own copyright and license terms.
-
