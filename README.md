@@ -2,13 +2,13 @@
 
 # ⚡ EU Energy Community Resources
 
-### Research • Regulation • Flexibility • Grid Integration
+### Policy • Practice • Research • Implementation
 
 A curated knowledge hub for building, modelling, and operating energy communities in Europe.
 
 [![EU Focus](https://img.shields.io/badge/Scope-European_Union-003399?style=flat-square&logo=europeanunion&logoColor=white)](https://energy.ec.europa.eu/topics/markets-and-consumers/energy-consumers-and-prosumers/energy-communities_en)
 [![Resources](https://img.shields.io/badge/Resources-Curated-14854F?style=flat-square)](#explore-the-hub)
-[![Research](https://img.shields.io/badge/Focus-EC–DSO_Coordination-6F42C1?style=flat-square)](#grid-constraints-flexibility-and-operating-envelopes)
+[![Resource Bank](https://img.shields.io/badge/Type-Open_Resource_Bank-6F42C1?style=flat-square)](#explore-the-hub)
 [![Updated](https://img.shields.io/badge/Updated-July_2026-0969DA?style=flat-square)](#)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-EF9421?style=flat-square)](LICENSE)
 
@@ -25,7 +25,7 @@ A curated knowledge hub for building, modelling, and operating energy communitie
 |---:|---|---|
 | ⚖️ | **Law & policy** | [EU directives, regulations, and implementation tracking](#eu-legal-and-policy-framework) |
 | 📚 | **Research** | [Selected peer-reviewed publications](#selected-scientific-publications) |
-| 🧰 | **Tools** | [Grid, optimization, control, and co-simulation software](#open-source-software) |
+| 🧰 | **Tools** | [Community modelling, energy management, grid, and co-simulation software](#open-source-software) |
 | 📊 | **Data** | [European datasets, load profiles, and test networks](#open-data-and-test-systems) |
 | 🔌 | **Standards** | [Interoperability and communication standards](#interoperability-and-technical-standards) |
 | 🇪🇺 | **Projects** | [European projects, networks, and knowledge platforms](#european-projects-and-networks) |
@@ -54,11 +54,11 @@ A curated knowledge hub for building, modelling, and operating energy communitie
 </td>
 <td width="33%" valign="top">
 
-#### ⚡ Working on EC–DSO coordination
+#### 🏘️ Developing a community
 
-1. Read [grid and DOE papers](#grid-constraints-flexibility-and-operating-envelopes)
-2. Review [interoperability standards](#interoperability-and-technical-standards)
-3. Select [grid and optimization tools](#open-source-software)
+1. Use the [implementation resources](#implementation-and-practitioner-resources)
+2. Review [business models and allocation](#business-models-markets-and-allocation)
+3. Explore [European projects and networks](#european-projects-and-networks)
 
 </td>
 </tr>
@@ -70,15 +70,17 @@ A curated knowledge hub for building, modelling, and operating energy communitie
 
 This hub collects European Union legislation, policy guidance, scientific publications, open-source tools, datasets, standards, and projects relevant to **energy communities**.
 
-The collection is especially focused on:
+The collection covers:
 
 - renewable energy communities (RECs) and citizen energy communities (CECs);
-- community energy management, scheduling, and model predictive control;
-- energy-community–distribution-system-operator (DSO) coordination;
-- network-safe operating envelopes and dynamic operating envelopes (DOEs);
-- flexibility declaration, aggregation, and market participation;
-- hosting capacity, distribution-grid constraints, and fairness;
-- local electricity markets, collective self-consumption, and benefit allocation.
+- EU legislation, national implementation, and public policy;
+- governance, participation, ownership, and cooperative models;
+- business models, financing, revenue streams, and community benefits;
+- collective self-consumption, energy sharing, and local electricity markets;
+- citizen engagement, energy justice, inclusion, and energy poverty;
+- community planning, digital platforms, data, and interoperability;
+- energy management, flexibility, storage, EVs, heating, and sector coupling;
+- distribution-grid integration, hosting capacity, and operating envelopes.
 
 > [!NOTE]
 > This is a living resource. Links and descriptions were last checked on **29 July 2026**. Inclusion does not imply endorsement.
@@ -173,6 +175,7 @@ The list prioritizes foundational work, systematic reviews, methods relevant to 
 | Frieden et al. (2021), [*Are we on the right track? Collective self-consumption and energy communities in the European Union*](https://doi.org/10.1016/j.scs.2021.103273) | Comparison of emerging national implementation approaches. |
 | Tarpani et al. (2022), [*Energy Communities Implementation in the European Union*](https://doi.org/10.3390/su141912528) | Cross-country assessment of implementation status and barriers. |
 
+<a id="business-models-markets-and-allocation"></a>
 ### Business models, markets, and allocation
 
 | Publication | Relevance |
