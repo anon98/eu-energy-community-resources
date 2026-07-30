@@ -318,20 +318,6 @@ For implementation, distinguish carefully between:
 - [Open Energy Modelling Initiative](https://openmod-initiative.org/) — open models, data, and research practices.
 - [BRIDGE](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/) — cooperation platform for EU smart-grid, storage, island, and digitalization projects.
 
-### Research and innovation projects
-
-| Project | Focus |
-|---|---|
-| [COMPILE](https://www.compile-project.eu/) | Local energy islands and community deployment. |
-| [NEWCOMERS](https://www.newcomersh2020.eu/) | New clean-energy-community business and governance models. |
-| [COME RES](https://come-res.eu/) | Enabling frameworks and transfer of renewable-energy-community practices. |
-| [DECIDE](https://energy-cities.eu/project/decide/) | Consumer and citizen engagement in energy communities. |
-| [BECoop](https://www.becoop-project.eu/) | Community bioenergy and business support. |
-| [IElectrix](https://ielectrix-h2020.eu/) | DSO innovation and local energy communities in distribution grids. |
-| [InterConnect](https://interconnectproject.eu/) | Interoperable smart homes, buildings, and grids. |
-| [OneNet](https://onenet-project.eu/) | Coordinated European electricity-market architecture and flexibility services. |
-| [CoordiNet](https://coordinet-project.eu/) | TSO–DSO–consumer coordination and flexibility demonstrations. |
-| [INTERRFACE](http://www.interrface.eu/) | TSO–DSO coordination and flexibility-service platforms. |
 
 ## 🤝 How to contribute
 
